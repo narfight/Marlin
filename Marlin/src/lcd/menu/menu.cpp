@@ -430,6 +430,7 @@ void scroll_screen(const uint8_t limit, const bool is_menu) {
     #if HAS_BUZZER
       ui.completion_feedback(saved);
     #endif
+    ui.refresh(LCDVIEW_CALL_REDRAW_NEXT);
     UNUSED(saved);
   }
   void lcd_load_settings() {
@@ -437,6 +438,7 @@ void scroll_screen(const uint8_t limit, const bool is_menu) {
     #if HAS_BUZZER
       ui.completion_feedback(loaded);
     #endif
+    ui.refresh(LCDVIEW_CALL_REDRAW_NEXT);
     UNUSED(loaded);
   }
 #endif

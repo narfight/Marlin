@@ -559,6 +559,10 @@ namespace Language_en {
   PROGMEM Language_Str MSG_SNAKE                           = _UxGT("Sn4k3");
   PROGMEM Language_Str MSG_MAZE                            = _UxGT("Maze");
 
+  // FSMC/SPI Touchscreen
+  PROGMEM Language_Str MSG_TOUCHSCREEN                     = _UxGT("Touchscreen");
+  PROGMEM Language_Str MSG_CALIBRATION                     = _UxGT("Calibration");
+
   //
   // Filament Change screens show up to 3 lines on a 4-line display
   //                        ...or up to 2 lines on a 3-line display
